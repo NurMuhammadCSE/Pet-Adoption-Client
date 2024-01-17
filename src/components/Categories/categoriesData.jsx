@@ -1,23 +1,54 @@
-import img1 from "../../assets/images/cat.jpg";
-import img2 from "../../assets/images/dog.jpg";
-import img3 from "../../assets/images/fish.jpg";
-import img4 from "../../assets/images/rabbit.jpg";
+import { FaCat } from "react-icons/fa";
+import { FaDog } from "react-icons/fa6";
+import { GiRabbit } from "react-icons/gi";
+import { IoFishSharp } from "react-icons/io5";
+import { FaCow } from "react-icons/fa6";
+
 
 export const categories = [
   {
-    name: "Cat",
-    image: img1,
+    label: "Cat",
+    icon: FaCat,
+    description: "This property is close to the beach!",
   },
   {
-    name: "Doc",
-    image: img2,
+    label: "Dog",
+    icon: FaDog,
+    description: "This property is has windmills!",
   },
   {
-    name: "Fish",
-    image: img3,
+    label: "Rabbit",
+    icon: GiRabbit,
+    description: "This property is modern!",
   },
   {
-    name: "Rabbit",
-    image: img4,
+    label: "Fish",
+    icon: IoFishSharp,
+    description: "This property is in the countryside!",
+  },
+  {
+    label: "Cow",
+    icon: FaCow,
+    description: "This is property has a beautiful pool!",
+  },
+  {
+    label: "Bird",
+    icon: FaDog,
+    description: "This property is has windmills!",
+  },
+  {
+    label: "Rodents",
+    icon: GiRabbit,
+    description: "This property is modern!",
+  },
+  {
+    label: "Parakeets",
+    icon: IoFishSharp,
+    description: "This property is in the countryside!",
+  },
+  {
+    label: "Hamsters",
+    icon: FaCow,
+    description: "This is property has a beautiful pool!",
   },
 ];

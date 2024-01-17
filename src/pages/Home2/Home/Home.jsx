@@ -1,11 +1,13 @@
+import Categories from "../../../components/Categories/Categories";
 import Container from "../../../components/Shared/Container";
 
 const Home = () => {
   return (
-    <Container>
-      <div>
-      </div>
+  <div>
+      <Container>
+        <Categories></Categories>
     </Container>
+  </div>
   );
 };
 
